@@ -1,0 +1,31 @@
+# Editor configuration, see http://editorconfig.org
+root = false
+
+[*]
+indent_style = space
+indent_size = 4
+
+# We recommend you to keep these unchanged
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+max_line_length = 160
+
+[*.{sass, scss}]
+indent_style = space
+indent_size = 4
+
+[*.md]
+max_line_length = 0
+trim_trailing_whitespace = false
+
+[*.html]
+indent_size = 4
+insert_final_newline = false
+
+[pre-commit]
+end_of_line = lf
+
+[*.sh]
+end_of_line = lf

@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-rational-order",
+    "stylelint-config-standard-scss"
+  ],
+  "plugins": [ "stylelint-order" ],
+  "ignoreFiles": ["**/*.html", "**/*.js", "**/*.ts"],
+  "rules": {
+    "at-rule-no-unknown": null,
+    "block-no-empty": null,
+    "scss/at-rule-no-unknown": true,
+    "scss/at-extend-no-missing-placeholder": null
+  }
+}
